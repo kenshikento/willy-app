@@ -33,7 +33,7 @@ Just new laravel installation so requires very little setup. Also it running on 
 
 ##Testing
 Too run the test just run ``` php artisan test``` and is located in unit test since there isn't really any component based testing needed here.
-
+Also if you are running test make sure you have vite running or it wont find files.
 
 ##General 
 Ideally for the groups information would come from Database or potentially Enum which either would output as Collection so for this exercise i just made it output as collection as a property but for real scenario it would be most likly a DB.
