@@ -28,8 +28,14 @@ Once we found results of this we need to optimize further with 3rd rule which is
 ``` if $y * $x > next iternation $y * x-1 ``` where we shift amount of packet amount to next iternation
 	
 ##SetUP
-I have't done much to set this up since there is no DB connection all i done is run ``` php artisan serve``` also typicall ```composer install``` 
-Just new laravel installation so requires very little setup. Also it running on vue 3 so you need to use npm commands ``` npm install``` and ```npm run dev``` 
+I have't done much to set this up since there is no DB connection all i done is run 
+1. ```git clone git@github.com:kenshikento/willy-app.git```      [to get files]
+2. ```composer install```
+3. ```cp .env.example .env```         [to copy the example env] 
+4. ```php artisan key:generate```  [to generate the key]
+5. ``` npm install``` then ``` npm run dev```   [this needs to be done to get vite server up]
+6. ``` php artisan serve```  [just too run quick local host]
+
 
 ##Testing
 Too run the test just run ``` php artisan test``` and is located in unit test since there isn't really any component based testing needed here.
